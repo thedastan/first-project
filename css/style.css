@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/*HEADER*/
+#header {
+    padding-top:  20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-items {
+
+}
+
+.nav-item {
+    margin: 0 15px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.fa-phone {
+
+    color: #B00000;
+}
+/*HEADER*/
+
+
+
+/*HERO*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6 {width: 50%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+
+
+.hero-crunch {
+    display: flex;
+}
+/*HERO*/
